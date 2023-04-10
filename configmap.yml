@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  # The name has had a suffix applied
+  name: my-application-properties-c79528k426
+# The data has been populated from each file's contents
+data:
+  application.properties: |
+    FOO=Bar
